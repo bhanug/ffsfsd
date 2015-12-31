@@ -1,0 +1,121 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Driver Files">
+      <UniqueIdentifier>{8E41214B-6785-4CFE-B992-037D68949A14}</UniqueIdentifier>
+      <Extensions>inf;inv;inx;mof;mc;</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="block.c">
+      <Filter>Driver Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cleanup.c">
+      <Filter>Driver Files</Filter>
+    </ClCompile>
+    <ClCompile Include="close.c">
+      <Filter>Driver Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cmcb.c">
+      <Filter>Driver Files</Filter>
+    </ClCompile>
+    <ClCompile Include="create.c">
+      <Filter>Driver Files</Filter>
+    </ClCompile>
+    <ClCompile Include="debug.c">
+      <Filter>Driver Files</Filter>
+    </ClCompile>
+    <ClCompile Include="devctl.c">
+      <Filter>Driver Files</Filter>
+    </ClCompile>
+    <ClCompile Include="dirctl.c">
+      <Filter>Driver Files</Filter>
+    </ClCompile>
+    <ClCompile Include="dispatch.c">
+      <Filter>Driver Files</Filter>
+    </ClCompile>
+    <ClCompile Include="except.c">
+      <Filter>Driver Files</Filter>
+    </ClCompile>
+    <ClCompile Include="fastio.c">
+      <Filter>Driver Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ffs.c">
+      <Filter>Driver Files</Filter>
+    </ClCompile>
+    <ClCompile Include="fileinfo.c">
+      <Filter>Driver Files</Filter>
+    </ClCompile>
+    <ClCompile Include="flush.c">
+      <Filter>Driver Files</Filter>
+    </ClCompile>
+    <ClCompile Include="fsctl.c">
+      <Filter>Driver Files</Filter>
+    </ClCompile>
+    <ClCompile Include="init.c">
+      <Filter>Driver Files</Filter>
+    </ClCompile>
+    <ClCompile Include="lock.c">
+      <Filter>Driver Files</Filter>
+    </ClCompile>
+    <ClCompile Include="memory.c">
+      <Filter>Driver Files</Filter>
+    </ClCompile>
+    <ClCompile Include="misc.c">
+      <Filter>Driver Files</Filter>
+    </ClCompile>
+    <ClCompile Include="pnp.c">
+      <Filter>Driver Files</Filter>
+    </ClCompile>
+    <ClCompile Include="read.c">
+      <Filter>Driver Files</Filter>
+    </ClCompile>
+    <ClCompile Include="shutdown.c">
+      <Filter>Driver Files</Filter>
+    </ClCompile>
+    <ClCompile Include="volinfo.c">
+      <Filter>Driver Files</Filter>
+    </ClCompile>
+    <ClCompile Include="write.c">
+      <Filter>Driver Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="bootblock.h">
+      <Filter>Driver Files</Filter>
+    </ClInclude>
+    <ClInclude Include="dinode.h">
+      <Filter>Driver Files</Filter>
+    </ClInclude>
+    <ClInclude Include="dir.h">
+      <Filter>Driver Files</Filter>
+    </ClInclude>
+    <ClInclude Include="disklabel.h">
+      <Filter>Driver Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ffsdrv.h">
+      <Filter>Driver Files</Filter>
+    </ClInclude>
+    <ClInclude Include="fs.h">
+      <Filter>Driver Files</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Driver Files</Filter>
+    </ClInclude>
+    <ClInclude Include="type.h">
+      <Filter>Driver Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
